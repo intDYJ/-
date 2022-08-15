@@ -67,7 +67,7 @@ models = dict()
 models['SVM'] = SVC(kernel='rbf')  # SVM这里我们搞个最常用的
 models['KNeighbor'] = KNeighborsClassifier(n_neighbors=5)  # n_neighbors表示neighbor个数
 models['RandomForest'] = RandomForestClassifier(n_estimators=100)  # n_estimators表示树的个数
-models['MultinomialNB'] = MultinomialNB()
+models['MultinomialNB'] = MultinomialNB()#朴素贝叶斯分类
 # %%
 # predict and evaluate
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
