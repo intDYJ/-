@@ -13,8 +13,8 @@ Evaluate your model.
 # 读取数据
 import pandas as pd
 
-traindata = pd.read_csv('.//data//train.csv')
-testdata = pd.read_csv('.//data//test.csv')
+traindata = pd.read_csv('..//data//train.csv')
+testdata = pd.read_csv('..//data//test.csv')
 # data = pd.concat([traindata,testdata],axis=0)
 df1=traindata.copy()
 df2=testdata.copy()
